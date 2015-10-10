@@ -29,3 +29,12 @@ var compare =function (choice1,choice2)
     }
     
 };
+
+//Using For loops in Javascript plus arrays
+
+var cities = ["Nairobi", "Asia", "Jamaica", "NYC","Mombasa"];
+
+for (var i = 0; i < cities.length; i++) {
+    console.log("I would like to visit " + cities[i]);
+}
+
