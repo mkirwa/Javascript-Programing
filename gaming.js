@@ -90,6 +90,15 @@ var totalDamage=0;
 while(slaying)
 {
     
+    if(youHit==true)
+    {
+        console.log("Congratulations you hit the dragon!!!"); 
+    }
+    else
+    {
+        console.log("The dragon defeated you!!!");   
+    }
+    
     slaying= false;
 }
 
